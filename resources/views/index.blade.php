@@ -45,7 +45,7 @@
                                     <div class="modal-content border-0 shadow">
                                         <div class="modal-header">
                                             <h5 class="modal-title fw-bold" id="exampleModalLabel">
-                                                Edit Item
+                                                EDIT USER
                                                 {{ $user->name }}
                                             </h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -59,7 +59,7 @@
                                                 <div class="form-group mb-2">
                                                     <input type="text"
                                                         class="form-control form-control-user @error('name') is-invalid @enderror"
-                                                        name="name" placeholder="Item Name" value="{{ $user->name }}"
+                                                        name="name" placeholder="Name" value="{{ $user->name }}"
                                                         required autofocus>
                                                     @error('name')
                                                         <div class="invalid-feedback">
@@ -94,7 +94,7 @@
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
                                                 data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-warning mt-2">Edit Item</button>
+                                            <button type="submit" class="btn btn-warning mt-2">Edit</button>
                                         </div>
                                         </form>
                                     </div>
