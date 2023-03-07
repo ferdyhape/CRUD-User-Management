@@ -46,7 +46,6 @@
                                         <div class="modal-header">
                                             <h5 class="modal-title fw-bold" id="exampleModalLabel">
                                                 EDIT USER
-                                                {{ $user->name }}
                                             </h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
@@ -67,7 +66,7 @@
                                                         </div>
                                                     @enderror
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group mb-2">
                                                     <input type="email"
                                                         class="form-control form-control-user @error('email') is-invalid @enderror"
                                                         name="email" placeholder="Email" value="{{ $user->email }}"
