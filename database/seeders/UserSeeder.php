@@ -21,7 +21,6 @@ class UserSeeder extends Seeder
             'name' => 'Ferdy Hahan Pradana',
             'email' => 'ferdyhahan5@gmail.com',
             'password' => bcrypt('password'),
-            'picture' => 'user-picture/user1.jpg'
         ]);
 
         $faker = Faker::create('id_ID');
