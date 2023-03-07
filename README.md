@@ -9,7 +9,15 @@ Campus: ``` Politeknik Negeri Malang ```
 This repository was created to fulfill the Laravel MVC assignment in the Independent Fullstack Web Developer Study program by GITS.id partner, MSIB Batch 4.
 
 ### :camera: Page Screenshot
-<img src="https://user-images.githubusercontent.com/75787853/223367029-24a3833b-daae-491d-8058-a53db4bf6409.png" width=70% height=70%><br>
+* Index<br>
+<img src="https://user-images.githubusercontent.com/75787853/223523246-19eca330-de7f-4d3e-8d89-896e2a3b11dd.png" width=70% height=70%><br>
+* Add User<br>
+<img src="https://user-images.githubusercontent.com/75787853/223529014-c6bbfe24-982f-4ed8-bac7-dca8471899ac.png" width=70% height=70%><br>
+* Edit User<br>
+<img src="https://user-images.githubusercontent.com/75787853/223529832-c814d3ce-245d-4794-b265-88e9f044b069.png" width=70% height=70%><br>
+* Delete User<br>
+<img src="https://user-images.githubusercontent.com/75787853/223530217-120e4829-b38d-404a-b3f1-af87cc4f83c0.png" width=70% height=70%><br>
+
 
 
 ### :link: About Creator
