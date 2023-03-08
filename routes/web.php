@@ -14,4 +14,4 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::resource('/user', UserController::class);
+Route::resource('/', UserController::class);
