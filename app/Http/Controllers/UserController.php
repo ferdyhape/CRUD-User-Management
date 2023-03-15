@@ -14,6 +14,14 @@ class UserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function getUser()
+    {
+        return response()->json([
+            'users' => User::all()
+        ]);
+    }
+
     public function index()
     {
         return view('index', [
@@ -90,7 +98,7 @@ class UserController extends Controller
         $user = User::find($id);
         $user->update($validatedData);
 
-        return redirect('user')->with('toast_success', 'Data User successfully added');
+        return redirect('user')->with('toast_success', 'Data User successfully updated');
     }
 
     /**
@@ -101,6 +109,7 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
+        // dd($id);
         $user = User::find($id);
         // dd($user);
         $user->delete();
